@@ -44,11 +44,11 @@ This website can be deployed using services such as:
 
 ## AI Usage
 
-AI was used as a learning aid to:
+AI was used as a learning tool to:
 
-* Explain HTML and CSS concepts.
-* Help debug layout issues.
-* Assist with writing documentation.
+- help me host the site 24/7 (portfolio.helloking.hackclub.app).
+- help me fix some issues i couldn't fix myself.
+
 
 The website itself was customized and assembled by me while following the project requirements.
 
