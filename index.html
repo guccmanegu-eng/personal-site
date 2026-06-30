@@ -1,30 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="styles.css"
         <meta charset="UTF-8"
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Personal Portfolio</title>
-    </head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
 
+        <link rel="stylesheet" href="styles.css"
+    </head>
+    
     <body>
+
         <header>
-            <h1>My Personal Portfolio!</h1>
+            <h1>Yassin Ben Salem</h1>
 
             <nav>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
 
-        <section id="äbout">
-            <h2>About me</h2>
-            <p>Hello! I'm learning HTML and building my first portfolio.</p>
+        <section class="hero">
+            <img src="https://i.imgur.com/bGDp9RF.jpeg" alt="Profile Pic"
+
+            <h2>Hello, I'm Yassin.</h2>
+
+            <p>
+                I'm a beginner in developing sites, so this is the second time I have ever coded CSS and HTML.
+            </p>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Coming soon...</p>
+        <section id="about" class="card">
+            <h2>About Me</h2>
+
+            <p>
+                Hello, I am Yassin. I am 17 years old, and I really enjoy programming, gaming, video editing, making music, and learning stuff!
+                My goal is to become a man with many talents.
+            </p>
         </section>
-        </body>
+
+        <section id="projects" class="card">
+            <h2>Projects</h2>
+
+            <div class="projects">
+                <div class="project">
+                    <h3>Nothing to see here...</h3>
+                    <p>
+                        May be adding some personal projects soon...
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Nothing to see here...</h3>
+                    <p>
+                        May be adding some personal projects soon...
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p>Email: yassinbs@yahoo.com</p>
+
+            <p>
+                Github:
+                <a href="https://github.com/guccmanegu-eng" target="_blank">
+                    Yassin's Github!
+                </a>
+            </p>
+        </section>
+
+        <footer>
+            <p>
+                © 2026 Yassin Ben Salem | Made with HTML & CSS
+            </p>
+        </footer>
+    </body>
+
 </html>
