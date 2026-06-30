@@ -55,3 +55,4 @@ The website itself was customized and assembled by me while following the projec
 ## License
 
 This project is intended for educational purposes.
+This project is made for a mission for hackclub.
